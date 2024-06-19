@@ -1,0 +1,80 @@
+[2024-06-19T07:16:28.972+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-06-19T07:16:29.031+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: summary_transaction.transform_task scheduled__2024-06-18T07:11:00+00:00 [queued]>
+[2024-06-19T07:16:29.053+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: summary_transaction.transform_task scheduled__2024-06-18T07:11:00+00:00 [queued]>
+[2024-06-19T07:16:29.054+0000] {taskinstance.py:2306} INFO - Starting attempt 2 of 3
+[2024-06-19T07:16:29.091+0000] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): transform_task> on 2024-06-18 07:11:00+00:00
+[2024-06-19T07:16:29.141+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:61: DeprecationWarning: This process (pid=10742) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2024-06-19T07:16:29.143+0000] {standard_task_runner.py:63} INFO - Started process 10744 to run task
+[2024-06-19T07:16:29.134+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'summary_transaction', 'transform_task', 'scheduled__2024-06-18T07:11:00+00:00', '--job-id', '27', '--raw', '--subdir', 'DAGS_FOLDER/summary_transaction.py', '--cfg-path', '/tmp/tmp47b_l2py']
+[2024-06-19T07:16:29.146+0000] {standard_task_runner.py:91} INFO - Job 27: Subtask transform_task
+[2024-06-19T07:16:29.251+0000] {task_command.py:426} INFO - Running <TaskInstance: summary_transaction.transform_task scheduled__2024-06-18T07:11:00+00:00 [running]> on host 7709186783c9
+[2024-06-19T07:16:29.578+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='candratama' AIRFLOW_CTX_DAG_ID='summary_transaction' AIRFLOW_CTX_TASK_ID='transform_task' AIRFLOW_CTX_EXECUTION_DATE='2024-06-18T07:11:00+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-06-18T07:11:00+00:00'
+[2024-06-19T07:16:29.580+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2024-06-19T07:16:34.014+0000] {warnings.py:112} WARNING - /opt/***/dags/summary_transaction.py:31: FutureWarning: Passing literal json to 'read_json' is deprecated and will be removed in a future version. To read from a literal string, wrap it in a 'StringIO' object.
+  df = pd.read_json(df_json)
+
+[2024-06-19T07:16:39.331+0000] {local_task_job_runner.py:310} WARNING - State of this instance has been externally set to None. Terminating instance.
+[2024-06-19T07:16:39.333+0000] {local_task_job_runner.py:222} INFO - ::endgroup::
+[2024-06-19T07:16:39.336+0000] {process_utils.py:132} INFO - Sending 15 to group 10744. PIDs of all processes in the group: [10744]
+[2024-06-19T07:16:39.337+0000] {process_utils.py:87} INFO - Sending the signal 15 to group 10744
+[2024-06-19T07:16:39.515+0000] {taskinstance.py:2611} ERROR - Received SIGTERM. Terminating subprocesses.
+[2024-06-19T07:16:39.524+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-06-19T07:16:39.644+0000] {taskinstance.py:2905} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 465, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 432, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 401, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 235, in execute
+    return_value = self.execute_callable()
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 252, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/airflow/dags/summary_transaction.py", line 31, in transform_data
+    df = pd.read_json(df_json)
+         ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/pandas/io/json/_json.py", line 804, in read_json
+    return json_reader.read()
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/pandas/io/json/_json.py", line 1014, in read
+    obj = self._get_object_parser(self.data)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/pandas/io/json/_json.py", line 1040, in _get_object_parser
+    obj = FrameParser(json, **kwargs).parse()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/pandas/io/json/_json.py", line 1173, in parse
+    self._parse()
+  File "/home/airflow/.local/lib/python3.12/site-packages/pandas/io/json/_json.py", line 1365, in _parse
+    self.obj = DataFrame(
+               ^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/pandas/core/frame.py", line 733, in __init__
+    mgr = dict_to_mgr(data, index, columns, dtype=dtype, copy=copy, typ=manager)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/pandas/core/internals/construction.py", line 503, in dict_to_mgr
+    return arrays_to_mgr(arrays, columns, index, dtype=dtype, typ=typ, consolidate=copy)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/pandas/core/internals/construction.py", line 114, in arrays_to_mgr
+    index = _extract_index(arrays)
+            ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/pandas/core/internals/construction.py", line 672, in _extract_index
+    index = union_indexes(indexes, sort=False)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/pandas/core/indexes/api.py", line 320, in union_indexes
+    return _unique_indices(indexes, dtype)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/pandas/core/indexes/api.py", line 254, in _unique_indices
+    lib.fast_unique_multiple_list([conv(i) for i in inds], sort=sort),
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 2613, in signal_handler
+    raise AirflowTaskTerminated("Task received SIGTERM signal")
+airflow.exceptions.AirflowTaskTerminated: Task received SIGTERM signal
+[2024-06-19T07:16:39.671+0000] {taskinstance.py:1206} INFO - Marking task as UP_FOR_RETRY. dag_id=summary_transaction, task_id=transform_task, run_id=scheduled__2024-06-18T07:11:00+00:00, execution_date=20240618T071100, start_date=20240619T071629, end_date=20240619T071639
+[2024-06-19T07:16:39.839+0000] {process_utils.py:80} INFO - Process psutil.Process(pid=10744, status='terminated', exitcode=2, started='07:16:28') (10744) terminated with exit code 2
