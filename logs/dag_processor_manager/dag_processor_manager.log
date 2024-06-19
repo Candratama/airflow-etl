@@ -6855,3 +6855,335 @@ File Path                                        PID    Runtime      # DAGs    #
 /opt/airflow/dags/summary_transaction.py                                  1           0  0.89s           2024-06-19T08:32:27
 /opt/airflow/dags/extract_data_from_postgres.py                           1           0  0.79s           2024-06-19T08:32:31
 ================================================================================
+[2024-06-19T08:33:05.406+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/extract_data_from_postgres.py                           1           0  0.92s           2024-06-19T08:33:02
+/opt/airflow/dags/summary_transaction.py                                  1           0  0.78s           2024-06-19T08:32:58
+================================================================================
+[2024-06-19T08:33:35.581+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/extract_data_from_postgres.py                           1           0  1.02s           2024-06-19T08:33:33
+/opt/airflow/dags/summary_transaction.py                                  1           0  0.83s           2024-06-19T08:33:29
+================================================================================
+[2024-06-19T08:34:05.591+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/summary_transaction.py                                  1           0  1.01s           2024-06-19T08:34:01
+/opt/airflow/dags/extract_data_from_postgres.py                           1           0  0.84s           2024-06-19T08:34:04
+================================================================================
+[2024-06-19T08:34:35.639+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/summary_transaction.py                                  1           0  0.93s           2024-06-19T08:34:32
+/opt/airflow/dags/extract_data_from_postgres.py                           1           0  0.89s           2024-06-19T08:34:35
+================================================================================
+[2024-06-19T08:34:46.242+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2024-06-19T08:34:46.245+0000] {manager.py:740} INFO - There are 2 files in /opt/airflow/dags
+[2024-06-19T08:35:05.653+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                          PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/summary_transaction.py                                  1           0  1.26s           2024-06-19T08:35:03
+/opt/airflow/dags/extract_data_from_postgres.py  12794  0.01s             1           0  0.89s           2024-06-19T08:34:35
+================================================================================
+[2024-06-19T08:35:35.740+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/extract_data_from_postgres.py                           1           0  1.25s           2024-06-19T08:35:06
+/opt/airflow/dags/summary_transaction.py                                  1           0  0.90s           2024-06-19T08:35:34
+================================================================================
+[2024-06-19T08:36:05.885+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/summary_transaction.py                                  1           0  0.95s           2024-06-19T08:36:05
+/opt/airflow/dags/extract_data_from_postgres.py                           1           0  0.93s           2024-06-19T08:35:37
+================================================================================
+[2024-06-19T08:36:36.104+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                          PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/summary_transaction.py         12821  0.01s             1           0  0.95s           2024-06-19T08:36:05
+/opt/airflow/dags/extract_data_from_postgres.py                           1           0  0.89s           2024-06-19T08:36:09
+================================================================================
+[2024-06-19T08:37:06.322+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/extract_data_from_postgres.py                           1           0  1.03s           2024-06-19T08:36:40
+/opt/airflow/dags/summary_transaction.py                                  1           0  1.01s           2024-06-19T08:36:37
+================================================================================
+[2024-06-19T08:37:36.654+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/extract_data_from_postgres.py                           1           0  1.17s           2024-06-19T08:37:11
+/opt/airflow/dags/summary_transaction.py                                  1           0  1.08s           2024-06-19T08:37:08
+================================================================================
+[2024-06-19T08:38:07.060+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/extract_data_from_postgres.py                           1           0  1.26s           2024-06-19T08:37:43
+/opt/airflow/dags/summary_transaction.py                                  1           0  1.24s           2024-06-19T08:37:39
+================================================================================
+[2024-06-19T08:38:37.132+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/summary_transaction.py                                  1           0  0.89s           2024-06-19T08:38:10
+/opt/airflow/dags/extract_data_from_postgres.py                           1           0  0.87s           2024-06-19T08:38:14
+================================================================================
+[2024-06-19T08:39:07.255+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/extract_data_from_postgres.py                           1           0  1.04s           2024-06-19T08:38:45
+/opt/airflow/dags/summary_transaction.py                                  1           0  0.93s           2024-06-19T08:38:42
+================================================================================
+[2024-06-19T08:39:37.265+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/summary_transaction.py                                  1           0  0.93s           2024-06-19T08:39:13
+/opt/airflow/dags/extract_data_from_postgres.py                           1           0  0.90s           2024-06-19T08:39:16
+================================================================================
+[2024-06-19T08:39:46.497+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2024-06-19T08:39:46.501+0000] {manager.py:740} INFO - There are 2 files in /opt/airflow/dags
+[2024-06-19T08:40:07.311+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/extract_data_from_postgres.py                           1           0  0.98s           2024-06-19T08:39:47
+/opt/airflow/dags/summary_transaction.py                                  1           0  0.90s           2024-06-19T08:39:44
+================================================================================
+[2024-06-19T08:40:38.016+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/summary_transaction.py                                  1           0  1.49s           2024-06-19T08:40:15
+/opt/airflow/dags/extract_data_from_postgres.py                           1           0  1.24s           2024-06-19T08:40:18
+================================================================================
+[2024-06-19T08:41:08.366+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/extract_data_from_postgres.py                           1           0  1.37s           2024-06-19T08:40:50
+/opt/airflow/dags/summary_transaction.py                                  1           0  1.13s           2024-06-19T08:40:47
+================================================================================
+[2024-06-19T08:41:38.650+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/extract_data_from_postgres.py                           1           0  1.16s           2024-06-19T08:41:22
+/opt/airflow/dags/summary_transaction.py                                  1           0  1.09s           2024-06-19T08:41:18
+================================================================================
+[2024-06-19T08:42:08.750+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/extract_data_from_postgres.py                           1           0  1.01s           2024-06-19T08:41:53
+/opt/airflow/dags/summary_transaction.py                                  1           0  0.89s           2024-06-19T08:41:49
+================================================================================
+[2024-06-19T08:42:38.766+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/summary_transaction.py                                  1           0  0.75s           2024-06-19T08:42:20
+/opt/airflow/dags/extract_data_from_postgres.py                           1           0  0.71s           2024-06-19T08:42:24
+================================================================================
+[2024-06-19T08:43:08.899+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/extract_data_from_postgres.py                           1           0  1.11s           2024-06-19T08:42:55
+/opt/airflow/dags/summary_transaction.py                                  1           0  1.09s           2024-06-19T08:42:51
+================================================================================
+[2024-06-19T08:43:39.076+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/summary_transaction.py                                  1           0  0.76s           2024-06-19T08:43:22
+/opt/airflow/dags/extract_data_from_postgres.py                           1           0  0.74s           2024-06-19T08:43:26
+================================================================================
+[2024-06-19T08:44:09.236+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/summary_transaction.py                                  1           0  0.89s           2024-06-19T08:43:53
+/opt/airflow/dags/extract_data_from_postgres.py                           1           0  0.80s           2024-06-19T08:43:57
+================================================================================
+[2024-06-19T08:44:39.388+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/summary_transaction.py                                  1           0  0.98s           2024-06-19T08:44:25
+/opt/airflow/dags/extract_data_from_postgres.py                           1           0  0.92s           2024-06-19T08:44:28
+================================================================================
+[2024-06-19T08:44:46.795+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2024-06-19T08:44:46.798+0000] {manager.py:740} INFO - There are 2 files in /opt/airflow/dags
+[2024-06-19T08:45:10.033+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/extract_data_from_postgres.py                           1           0  1.02s           2024-06-19T08:44:59
+/opt/airflow/dags/summary_transaction.py                                  1           0  0.94s           2024-06-19T08:44:56
+================================================================================
+[2024-06-19T08:45:40.652+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/extract_data_from_postgres.py                           1           0  1.47s           2024-06-19T08:45:31
+/opt/airflow/dags/summary_transaction.py                                  1           0  1.35s           2024-06-19T08:45:28
+================================================================================
+[2024-06-19T08:46:11.156+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/extract_data_from_postgres.py                           1           0  1.39s           2024-06-19T08:46:03
+/opt/airflow/dags/summary_transaction.py                                  1           0  1.27s           2024-06-19T08:46:00
+================================================================================
+[2024-06-19T08:46:41.399+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/extract_data_from_postgres.py                           1           0  1.15s           2024-06-19T08:46:34
+/opt/airflow/dags/summary_transaction.py                                  1           0  0.98s           2024-06-19T08:46:31
+================================================================================
+[2024-06-19T08:47:11.530+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/extract_data_from_postgres.py                           1           0  0.88s           2024-06-19T08:47:05
+/opt/airflow/dags/summary_transaction.py                                  1           0  0.74s           2024-06-19T08:47:02
+================================================================================
+[2024-06-19T08:47:41.543+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/extract_data_from_postgres.py                           1           0  0.84s           2024-06-19T08:47:36
+/opt/airflow/dags/summary_transaction.py                                  1           0  0.71s           2024-06-19T08:47:33
+================================================================================
+[2024-06-19T08:48:11.607+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/summary_transaction.py                                  1           0  0.94s           2024-06-19T08:48:04
+/opt/airflow/dags/extract_data_from_postgres.py                           1           0  0.90s           2024-06-19T08:48:07
+================================================================================
+[2024-06-19T08:48:41.625+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/extract_data_from_postgres.py                           1           0  1.22s           2024-06-19T08:48:38
+/opt/airflow/dags/summary_transaction.py                                  1           0  1.12s           2024-06-19T08:48:35
+================================================================================
+[2024-06-19T08:49:11.699+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/summary_transaction.py                                  1           0  0.90s           2024-06-19T08:49:06
+/opt/airflow/dags/extract_data_from_postgres.py                           1           0  0.82s           2024-06-19T08:49:09
+================================================================================
+[2024-06-19T08:49:41.809+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/summary_transaction.py                                  1           0  0.97s           2024-06-19T08:49:37
+/opt/airflow/dags/extract_data_from_postgres.py                           1           0  0.94s           2024-06-19T08:49:40
+================================================================================
+[2024-06-19T08:49:46.842+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2024-06-19T08:49:46.845+0000] {manager.py:740} INFO - There are 2 files in /opt/airflow/dags
+[2024-06-19T08:50:12.043+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/summary_transaction.py                                  1           0  1.01s           2024-06-19T08:50:09
+/opt/airflow/dags/extract_data_from_postgres.py                           1           0  0.96s           2024-06-19T08:50:12
+================================================================================
+[2024-06-19T08:50:42.319+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                          PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/summary_transaction.py                                  1           0  1.08s           2024-06-19T08:50:40
+/opt/airflow/dags/extract_data_from_postgres.py  13096  0.01s             1           0  0.96s           2024-06-19T08:50:12
+================================================================================
